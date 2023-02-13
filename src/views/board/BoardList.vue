@@ -9,7 +9,7 @@
           <th>No</th>
           <th>제목</th>
           <th>작성자</th>
-          <th>등록일시 test</th>
+          <th>등록일시</th>
         </tr>
         </thead>
         <tbody>
@@ -114,12 +114,6 @@
 .board-list {
     width: 768px;
     margin: auto;
-}
-
-.board-detail {
-    width: 768px;
-    margin: auto;
-    text-align: left;
 }
 
 .board-contents {
