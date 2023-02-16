@@ -3,6 +3,7 @@ import PageHome from '@/views/PageHome.vue'
 import BoardList from '@/views/board/BoardList.vue'
 import BoardDetail from '@/views/board/BoardDetail.vue'
 import BoardWrite from '@/views/board/BoardWrite.vue'
+import ToDoList from '@/views/todo/ToDoList.vue'
 
 
 const routes = [
@@ -33,6 +34,11 @@ const routes = [
     path: '/board/write',
     name: 'BoardWrite',
     component: BoardWrite
+  },
+  {
+    path: '/todo/list',
+    name: 'ToDoList',
+    component: ToDoList
   },
 ]
 
