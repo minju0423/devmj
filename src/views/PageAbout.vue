@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <button type="button" v-on:click="onClickRedirect">@0l_minjuuuuu</button>
+    <button type="button" v-on:click="onClickRedirect">Google</button>
   </div>
 </template>
 
@@ -8,7 +8,7 @@
 export default {
   methods : {
     onClickRedirect: function () {   
-      window.open("https://www.instagram.com/0l_minjuuuuu/", "_blank");    
+      window.open("https://www.google.co.kr/", "_blank");    
       
     }
   }
